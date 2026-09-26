@@ -4,14 +4,15 @@
 # Creating a template for student
 class StudentClass:
 
-    #intilizing required variable empty or blank 
+    #intializing required variable empty or blank 
     def __init__(self):
         self.full_name = ""
         self.date_of_birth = None
         self.age = None
         self.gender = None
         self.mobile_number = None
-        self.email = None
+        self.email_address = None
+        self.password = ""
         self.preferred_language = None
         self.school_college_name = None
         self.class_grade = None
@@ -25,5 +26,8 @@ class StudentClass:
         self.parent_mobile_number = None
         self.parent_email = None
         self.preferred_communication_method = None
+def setusernameandpassword(self,emial,password):
+  self.email_address = email
+  self.password = password  
 
 
