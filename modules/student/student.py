@@ -1,5 +1,10 @@
 
+
+
+# Creating a template for student
 class StudentClass:
+
+    #intilizing required variable empty or blank 
     def __init__(self):
         self.full_name = ""
         self.date_of_birth = None
@@ -20,3 +25,5 @@ class StudentClass:
         self.parent_mobile_number = None
         self.parent_email = None
         self.preferred_communication_method = None
+
+
